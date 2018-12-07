@@ -23,6 +23,10 @@ gem 'coffee-rails', '~> 4.2'
 
 # Use MYSQL as DB
 gem 'mysql2'
+
+# The `div_for` method has been removed from Rails. To continue using it, add the `record_tag_helper` gem to your Gemfile
+gem 'record_tag_helper', '~> 1.0'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
